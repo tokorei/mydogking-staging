@@ -1,5 +1,5 @@
 // Each release gets its own salt and encrypted files. Only the gate and this loader are public.
-const release='ddf48297fb5eaa3e';
+const release='e829e7844209bce7';
 const base=new URL(self.registration.scope);
 const encoder=new TextEncoder();
 const bytes=value=>Uint8Array.from(atob(value),ch=>ch.charCodeAt(0));
